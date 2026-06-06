@@ -47,3 +47,20 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+.certificate-image {
+
+    background-image:
+    url("certificate-base.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 1100px;
+    height: 775px;
+
+    margin: 0 auto;
+
+    padding: 120px;
+
+    box-sizing: border-box;
+}
