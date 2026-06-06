@@ -31,9 +31,22 @@
 
 <br><br>
 
-<button>
+<button onclick="issueCertificate()">
 許可証を発行する
 </button>
+
+<script>
+function issueCertificate() {
+
+const wish =
+document.getElementById("wish").value;
+
+window.location.href =
+"certificate.html?wish=" +
+encodeURIComponent(wish);
+
+}
+</script>
 
 </body>
 </html>
