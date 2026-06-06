@@ -71,20 +71,20 @@ font-weight:bold;
 
 #certificateNo {
 
-font-size:24px;
+font-size:36px;
 
 text-align:left;
 
 padding-left:80px;
 
-margin-bottom:100px;
+margin-bottom:60px;
 }
 
 /* 名前 */
 
 #nameText {
 
-font-size:52px;
+font-size:64px;
 
 font-weight:bold;
 
@@ -122,14 +122,14 @@ overflow-wrap:break-word;
 
 .certificate-text {
 
-font-size:28px;
+font-size:48px;
 
 margin-bottom:180px;
 }
 
 .issue-date {
 
-font-size:24px;
+font-size:36px;
 
 text-align:right;
 
