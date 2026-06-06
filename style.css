@@ -134,3 +134,11 @@ margin-top: 5px;
 display:none;
   
 }
+.certificate-main{
+width:100%;
+display:flex;
+flex-direction:column;
+align-items:center;
+
+border:3px solid red;
+}
