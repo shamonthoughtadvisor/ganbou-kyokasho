@@ -51,7 +51,6 @@ box-sizing: border-box;
 
 .certificate-main {
 
-```
 writing-mode: vertical-rl;
 
 height: 500px;
@@ -59,14 +58,7 @@ width: 700px;
 
 margin: 0 auto;
 
-display: flex;
-flex-direction: row;
-
-justify-content: center;
-align-items: center;
-
-gap: 40px;
-```
+text-align: center;
 
 }
 
