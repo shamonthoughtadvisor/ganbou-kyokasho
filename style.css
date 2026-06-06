@@ -29,7 +29,6 @@ margin-bottom: 60px;
 
 .certificate-image {
 
-```
 background-image: url("certificate-base.png");
 
 background-size: contain;
@@ -43,117 +42,95 @@ margin: 0 auto;
 padding: 120px;
 
 box-sizing: border-box;
-```
-
 }
 
 /* 賞状本体 */
 
-.certificate-main{
+.certificate-main {
 
-width:700px;
+width: 700px;
 
-margin:0 auto;
-text-align:center;
+margin: 0 auto;
+
+text-align: center;
+
+padding-top: 40px;
 }
 
-/* 願望 */
+/* タイトル */
 
-#wishText {
-font-size: 52px;
-margin: 0;
+.certificate-main h1 {
+
+font-size: 48px;
+
+margin-bottom: 40px;
+}
+
+/* 証書番号 */
+
+#certificateNo {
+
+font-size: 20px;
+
+margin-bottom: 40px;
 }
 
 /* 名前 */
 
 #nameText {
+
 font-size: 36px;
-margin: 0;
+
+margin-bottom: 60px;
 }
 
-/* の実現を許可します */
+/* 願望 */
+
+#wishText {
+
+font-size: 52px;
+
+margin: 40px 0;
+}
+
+/* 本文 */
 
 .certificate-text {
-font-size: 24px;
-margin: 0;
-}
 
-/* 証書番号 */
+font-size: 28px;
 
-#certificateNo{
-font-size:20px;
-margin:0;
+line-height: 1.8;
 }
 
 /* 発行日 */
 
 .issue-date {
+
 text-align: right;
+
 margin-right: 120px;
+
 margin-top: 120px;
 }
 
 /* 発行局 */
 
 .issuer {
+
 text-align: right;
+
 margin-right: 120px;
 }
 
 /* URL */
 
 .site-url {
+
 font-size: 12px;
+
 text-align: right;
+
 margin-right: 120px;
+
 margin-top: -10px;
-}
-.certificate-main h1,
-.certificate-main h2,
-.certificate-main h3,
-.certificate-main p{
-margin:0;
-}
-
-#certificateNo{
-font-size:20px;
-}
-
-#nameText{
-font-size:36px;
-}
-
-#wishText{
-font-size:52px;
-}
-
-.certificate-text{
-font-size:24px;
-}
-.title{
-writing-mode:vertical-rl;
-margin:0 auto;
-font-size:48px;
-}
-
-#certificateNo{
-margin:20px auto;
-font-size:20px;
-}
-
-#nameText{
-margin:40px auto;
-font-size:36px;
-}
-
-#wishText{
-margin:40px auto;
-font-size:52px;
-writing-mode:vertical-rl;
-}
-
-.certificate-text{
-margin:40px auto;
-font-size:24px;
-writing-mode:vertical-rl;
 }
