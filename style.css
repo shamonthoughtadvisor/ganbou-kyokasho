@@ -101,10 +101,7 @@ height:500px;
 
 margin:auto;
 
-display:flex;
-flex-direction:column;
-
-align-items:center;
+text-align:center;
 
 }
 <!DOCTYPE html>
