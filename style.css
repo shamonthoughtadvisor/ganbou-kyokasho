@@ -34,12 +34,12 @@ background-image: url("certificate-base.png");
 background-size: contain;
 background-repeat: no-repeat;
 
-width: 1100px;
-height: 775px;
+width: 700px;
+height: 900px;
 
 margin: 0 auto;
 
-padding: 120px;
+padding: 80px;
 
 box-sizing: border-box;
 }
