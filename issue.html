@@ -41,9 +41,14 @@ function issueCertificate() {
 const wish =
 document.getElementById("wish").value;
 
+const name =
+document.getElementById("name").value;
+
 window.location.href =
 "certificate.html?wish=" +
-encodeURIComponent(wish);
+encodeURIComponent(wish) +
+"&name=" +
+encodeURIComponent(name);
 
 }
 </script>
