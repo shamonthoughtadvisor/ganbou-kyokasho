@@ -125,15 +125,24 @@ font-size:48px;
 margin-bottom:10px;
 }
 
+.certificate-footer{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:flex-end;
+
+margin-top:120px;
+
+}
+
 .issue-date {
 
 font-size:36px;
 
-text-align:left;
+margin:0;
 
-margin-left:60px;
-
-margin-bottom:20px;
 }
 
 /* 発行局 */
@@ -144,12 +153,10 @@ font-size:42px;
 
 font-weight:bold;
 
+margin:0;
+
 text-align:right;
 
-margin-top: -50px;
-
-margin-right:10px;
-  
 }
 
 /* URL */
