@@ -11,7 +11,8 @@
 <div class="certificate-image" id="certificate">
 
 <h1>願望実現許可証</h1>
-
+<p id="certificateNo"></p>
+  
 <p class="certificate-text">
 </p>
 
@@ -43,7 +44,12 @@
 
 <script>
 const params = new URLSearchParams(window.location.search);
+const number =
+Math.floor(Math.random() * 900000) + 100000;
 
+document.getElementById("certificateNo").textContent =
+"第" + number + "号";
+  
 const wish =
 params.get("wish");
 
