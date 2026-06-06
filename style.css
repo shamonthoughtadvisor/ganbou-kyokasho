@@ -108,7 +108,9 @@ font-size:64px;
 
 max-width:760px;
 
-margin:0 10px 0 auto;
+margin:0 auto 0 auto;
+
+text-align:left;
 
 line-height:1.6;
 
@@ -122,7 +124,11 @@ overflow-wrap:break-word;
 
 font-size:48px;
 
-margin-bottom:10px;
+max-width:760px;
+
+margin:-20px auto 10px auto;
+
+text-align:left;
 }
 
 .certificate-footer{
