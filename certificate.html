@@ -48,3 +48,27 @@ params.get("wish");
   
 </body>
 </html>
+<script>
+
+function saveCertificate() {
+
+html2canvas(
+document.getElementById("certificate")
+).then(canvas => {
+
+const link =
+document.createElement("a");
+
+link.download =
+"ganbou-kyokasho.png";
+
+link.href =
+canvas.toDataURL();
+
+link.click();
+
+});
+
+}
+
+</script>
