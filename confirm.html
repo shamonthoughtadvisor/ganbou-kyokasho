@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -11,44 +12,145 @@
 <h1>確認事項</h1>
 
 <p>
-許可証を発行する前に、以下の内容をご確認ください。
+許可証を発行するためには、以下の説明を最後まで読み、理解していただく必要があります。
+</p>
+
+<p>
+全ての項目で「理解した」を選択すると、許可証発行画面へ進めます。
 </p>
 
 <hr>
 
-<p>
-□ この願望は、私自身が本当に望んでいるものです。
-</p>
+<h2>１．確認事項</h2>
 
 <p>
-□ 私は願望実現のために必要な行動を行う意思があります。
+再度ご確認ください。<br>
+ここから続く各説明をしっかりと読み、理解したうえで「理解した。」とお答えいただける場合、許可証が発行されます。<br>
+ご理解いただけましたか？
 </p>
 
-<p>
-□ 私は自分自身に願望実現の許可を与えることに同意します。
-</p>
-
-<p>
-□ 私はこの許可証が法的効力を持たないことを理解しています。
-</p>
+<select id="q1">
+<option value="">---</option>
+<option value="yes">理解した</option>
+<option value="no">理解していない</option>
+</select>
 
 <hr>
 
+<h2>２．免責事項</h2>
+
 <p>
-以上の内容を理解しましたか？
+当サイトで発行した許可証は法的効力・拘束力を持つものではなく、当サイトは許可証の内容・効力、その他利用することで発生した全ての事象において一切の責任を負いません。<br>
+ご利用はご自身の責任においてのみお願いいたします。<br>
+ご理解いただけましたか？
 </p>
 
-<br>
+<select id="q2">
+<option value="">---</option>
+<option value="yes">理解した</option>
+<option value="no">理解していない</option>
+</select>
 
-<a href="issue.html">
-<button>
-理解しました
-</button>
-</a>
+<hr>
 
-<button onclick="history.back()">
-理解していません
+<h2>３．引き寄せの法則について</h2>
+
+<p>
+いわゆる「引き寄せの法則」をご存じでしょうか？<br>
+ご存じなければ調べてみるのも良いかもしれません。<br>
+ご存じなくても、また調べなくても許可証の発行には影響ございません。<br>
+ご理解いただけましたか？
+</p>
+
+<select id="q3">
+<option value="">---</option>
+<option value="yes">理解した</option>
+<option value="no">理解していない</option>
+</select>
+
+<hr>
+
+<h2>４．願掛けについて</h2>
+
+<p>
+神社で神様に願掛けする方がいいのでは？と感じた方へ。<br>
+はい、そうしていただいて大丈夫です。<br>
+ご自身が良いと思う方法を行ってください。<br>
+ご理解いただけましたか？
+</p>
+
+<select id="q4">
+<option value="">---</option>
+<option value="yes">理解した</option>
+<option value="no">理解していない</option>
+</select>
+
+<hr>
+
+<h2>５．自作について</h2>
+
+<p>
+許可証が法的効力などを持たないなら、ノートやメモ帳に自分で書けばいいのでは？と感じた方へ。<br>
+はい、そうしていただいて大丈夫です。<br>
+ご自身が良いと思う方法を行ってください。<br>
+ご理解いただけましたか？
+</p>
+
+<select id="q5">
+<option value="">---</option>
+<option value="yes">理解した</option>
+<option value="no">理解していない</option>
+</select>
+
+<hr>
+
+<h2>６．最終確認</h2>
+
+<p>
+１から５の説明をしっかりと読んだうえで「理解した」を選択しましたか？<br>
+読まずに選択した方、理解していないが「理解した」を選択した方には許可証を発行しておりません。<br>
+１から５の説明をご理解いただけましたか？
+</p>
+
+<select id="q6">
+<option value="">---</option>
+<option value="yes">理解した</option>
+<option value="no">理解していない</option>
+</select>
+
+<hr>
+
+<button onclick="checkAnswers()">
+許可証発行へ進む
 </button>
+
+<script>
+
+function checkAnswers() {
+
+for(let i = 1; i <= 6; i++){
+
+const value =
+document.getElementById("q" + i).value;
+
+if(value !== "yes"){
+
+alert(
+"全ての項目で「理解した」を選択してください。"
+);
+
+return;
+
+}
+
+}
+
+window.location.href =
+"issue.html";
+
+}
+
+</script>
 
 </body>
 </html>
