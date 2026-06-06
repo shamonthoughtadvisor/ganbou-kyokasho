@@ -39,11 +39,9 @@ height: 900px;
 
 margin: 0 auto;
 
-padding: 120px 80px 80px 80px;
+padding: 90px 90px 140px 90px;
 
 box-sizing: border-box;
-
-position: relative;
 }
 
 /* 賞状本体 */
@@ -80,14 +78,14 @@ margin-bottom: 40px;
 /* 名前 */
 
 #nameText {
-font-size: 24px;
+font-size: 18px;
 font-weight: bold;
 
-max-width: 500px;
+max-width: 380px;
 
-margin: 40px auto;
+margin: 30px auto;
 
-line-height: 1.5;
+line-height: 1.8;
 
 word-break: break-word;
 overflow-wrap: break-word;
@@ -96,14 +94,14 @@ overflow-wrap: break-word;
 /* 願望 */
 
 #wishText {
-font-size: 28px;
+font-size: 22px;
 font-weight: bold;
 
-max-width: 500px;
+max-width: 380px;
 
-margin: 50px auto;
+margin: 40px auto;
 
-line-height: 1.5;
+line-height: 1.8;
 
 word-break: break-word;
 overflow-wrap: break-word;
@@ -112,10 +110,11 @@ overflow-wrap: break-word;
 /* 本文 */
 
 .certificate-text {
-
-font-size: 28px;
-
-line-height: 1.8;
+  
+font-size: 18px;
+  
+margin-top: 40px;
+  
 }
 
 /* 発行日 */
