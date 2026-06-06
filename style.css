@@ -84,11 +84,11 @@ margin-bottom:60px;
 
 #nameText {
 
-font-size:64px;
+font-size:56px;
 
 font-weight:bold;
 
-max-width:800px;
+max-width:760px;
 
 margin:0 0 60px auto;
 
@@ -104,13 +104,13 @@ overflow-wrap:break-word;
 
 #wishText {
 
-font-size:48px;
+font-size:64px;
 
 font-weight:bold;
 
 max-width:760px;
 
-margin:0 auto 80px auto;
+margin:0 auto 40px auto;
 
 line-height:1.6;
 
@@ -124,7 +124,7 @@ overflow-wrap:break-word;
 
 font-size:48px;
 
-margin-bottom:180px;
+margin-bottom:60px;
 }
 
 .issue-date {
@@ -148,7 +148,7 @@ font-weight:bold;
 
 text-align:right;
 
-margin-right:60px;
+margin-right:10px;
 }
 
 /* URL */
