@@ -65,3 +65,9 @@ button {
 
     box-sizing: border-box;
 }
+#nameText{
+    text-align:center;
+    font-size:36px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
