@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <title>願望入力</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <h1>願望入力</h1>
@@ -18,16 +20,37 @@
 </p>
 
 <p>
-願望
+例：
 </p>
 
-<input type="text" id="wish" style="width:100%;">
+<ul>
+<li>小説家になる</li>
+<li>理想のパートナーと出会う</li>
+<li>年収1000万円を達成する</li>
+<li>世界一周旅行をする</li>
+</ul>
+
+<hr>
 
 <p>
-お名前（任意）
+願望（50文字以内）
 </p>
 
-<input type="text" id="name" style="width:100%;">
+<input
+type="text"
+id="wish"
+maxlength="50"
+style="width:100%;">
+
+<p>
+お名前（任意・20文字以内）
+</p>
+
+<input
+type="text"
+id="name"
+maxlength="20"
+style="width:100%;">
 
 <br><br>
 
@@ -36,13 +59,24 @@
 </button>
 
 <script>
+
 function issueCertificate() {
 
 const wish =
-document.getElementById("wish").value;
+document.getElementById("wish").value.trim();
 
 const name =
-document.getElementById("name").value;
+document.getElementById("name").value.trim();
+
+if(wish === ""){
+
+alert(
+"願望を入力してください。"
+);
+
+return;
+
+}
 
 window.location.href =
 "certificate.html?wish=" +
@@ -51,6 +85,7 @@ encodeURIComponent(wish) +
 encodeURIComponent(name);
 
 }
+
 </script>
 
 </body>
