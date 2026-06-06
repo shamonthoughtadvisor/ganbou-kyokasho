@@ -39,22 +39,24 @@ height: 900px;
 
 margin: 0 auto;
 
-padding: 80px;
+padding: 120px 80px 80px 80px;
 
 box-sizing: border-box;
+
+position: relative;
 }
 
 /* 賞状本体 */
 
 .certificate-main {
 
-width: 700px;
-
-margin: 0 auto;
+width: 100%;
 
 text-align: center;
 
-padding-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* タイトル */
@@ -78,19 +80,33 @@ margin-bottom: 40px;
 /* 名前 */
 
 #nameText {
+font-size: 24px;
+font-weight: bold;
 
-font-size: 36px;
+max-width: 500px;
 
-margin-bottom: 60px;
+margin: 40px auto;
+
+line-height: 1.5;
+
+word-break: break-word;
+overflow-wrap: break-word;
 }
 
 /* 願望 */
 
 #wishText {
+font-size: 28px;
+font-weight: bold;
 
-font-size: 52px;
+max-width: 500px;
 
-margin: 40px 0;
+margin: 50px auto;
+
+line-height: 1.5;
+
+word-break: break-word;
+overflow-wrap: break-word;
 }
 
 /* 本文 */
@@ -105,32 +121,31 @@ line-height: 1.8;
 /* 発行日 */
 
 .issue-date {
-
-text-align: right;
-
-margin-right: 120px;
-
-margin-top: 120px;
+  
+margin-top: 60px;
+  
+text-align: center;
+  
 }
 
 /* 発行局 */
 
 .issuer {
-
-text-align: right;
-
-margin-right: 120px;
+  
+text-align: center;
+  
+margin-top: 20px;
+  
 }
 
 /* URL */
 
 .site-url {
-
+  
 font-size: 12px;
-
-text-align: right;
-
-margin-right: 120px;
-
-margin-top: -10px;
+  
+text-align: center;
+  
+margin-top: 15px;
+  
 }
