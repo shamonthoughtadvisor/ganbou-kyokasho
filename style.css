@@ -93,3 +93,17 @@ padding:12px 24px;
 font-size:18px;
 cursor:pointer;
 }
+.main-certificate{
+
+writing-mode:vertical-rl;
+
+height:500px;
+
+margin:auto;
+
+display:flex;
+flex-direction:column;
+
+align-items:center;
+
+}
