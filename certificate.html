@@ -71,13 +71,19 @@ params.get("wish");
 const name =
 params.get("name");
 
+const limitedWish =
+wish ? wish.slice(0, 40) : "";
+
+const limitedName =
+name ? name.slice(0, 10) : "";
+  
 document.getElementById("wishText").textContent =
-wish;
+limitedWish;
 
 if(name && name.trim() !== "") {
 
 document.getElementById("nameText").textContent =
-name + " 殿";
+limitedName + " 殿";
 
 } else {
 
