@@ -49,17 +49,22 @@ box-sizing: border-box;
 
 /* 賞状本体 */
 
-.certificate-main {
+.certificate-main{
 
-writing-mode: vertical-rl;
+writing-mode:vertical-rl;
 
-height: 500px;
-width: 700px;
+height:500px;
+width:700px;
 
-margin: 0 auto;
+margin:0 auto;
 
-text-align: center;
+display:flex;
+flex-direction:row;
 
+justify-content:center;
+align-items:center;
+
+gap:80px;
 }
 
 /* 願望 */
@@ -114,4 +119,10 @@ font-size: 12px;
 text-align: right;
 margin-right: 120px;
 margin-top: -10px;
+}
+.certificate-main h1,
+.certificate-main h2,
+.certificate-main h3,
+.certificate-main p{
+margin:0;
 }
