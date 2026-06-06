@@ -26,10 +26,11 @@ button {
     margin-bottom: 60px;
 }
 
-.certificate h2 {
+#wishText {
     text-align: center;
-    font-size: 36px;
-    margin: 50px 0;
+    font-size: 52px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .certificate-text {
