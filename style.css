@@ -78,14 +78,15 @@ margin-bottom: 40px;
 /* 名前 */
 
 #nameText {
-font-size: 18px;
+font-size: 28px;
 font-weight: bold;
 
-max-width: 380px;
+max-width: 500px;
 
-margin: 30px auto;
+margin-top: 40px;
+margin-bottom: 50px;
 
-line-height: 1.8;
+text-align: right;
 
 word-break: break-word;
 overflow-wrap: break-word;
@@ -94,14 +95,16 @@ overflow-wrap: break-word;
 /* 願望 */
 
 #wishText {
-font-size: 22px;
-font-weight: bold;
+font-size: 24px;
 
-max-width: 380px;
+max-width: 420px;
 
-margin: 40px auto;
+margin-top: 20px;
+margin-bottom: 30px;
 
 line-height: 1.8;
+
+text-align: center;
 
 word-break: break-word;
 overflow-wrap: break-word;
@@ -110,41 +113,43 @@ overflow-wrap: break-word;
 /* 本文 */
 
 .certificate-text {
-  
-font-size: 18px;
-  
-margin-top: 40px;
-  
+font-size: 22px;
+
+margin-top: 10px;
+
+text-align: center;
 }
 
-/* 発行日 */
-
 .issue-date {
-  
-margin-top: 60px;
-  
-text-align: center;
-  
+
+font-size: 16px;
+
+text-align: right;
+
+margin-top: 80px;
+
+padding-right: 40px;
 }
 
 /* 発行局 */
 
 .issuer {
-  
-text-align: center;
-  
-margin-top: 20px;
-  
+
+font-size: 28px;
+
+font-weight: bold;
+
+text-align: right;
+
+padding-right: 40px;
+
+margin-top: 10px;
 }
 
 /* URL */
 
 .site-url {
   
-font-size: 12px;
-  
-text-align: center;
-  
-margin-top: 15px;
+display:none;
   
 }
