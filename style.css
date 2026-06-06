@@ -65,8 +65,6 @@ button {
     padding: 120px;
 
     box-sizing: border-box;
-
-    writing-mode: vertical-rl;
 }
 #nameText{
     font-size:36px;
