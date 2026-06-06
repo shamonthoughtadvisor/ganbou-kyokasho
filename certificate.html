@@ -44,8 +44,21 @@
 <script>
 const params = new URLSearchParams(window.location.search);
 
-document.getElementById("wishText").textContent =
+const wish =
 params.get("wish");
+
+const name =
+params.get("name");
+
+document.getElementById("wishText").textContent =
+wish;
+
+if(name && name.trim() !== "") {
+
+document.getElementById("nameText").textContent =
+name + " 殿";
+
+}
 </script>
 
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
