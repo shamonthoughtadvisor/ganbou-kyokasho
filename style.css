@@ -51,12 +51,10 @@ box-sizing: border-box;
 
 .certificate-main{
 
-writing-mode: vertical-rl;
-
-height:500px;
 width:700px;
 
 margin:0 auto;
+text-align:center;
 }
 
 /* 願望 */
@@ -131,4 +129,31 @@ font-size:52px;
 
 .certificate-text{
 font-size:24px;
+}
+.title{
+writing-mode:vertical-rl;
+margin:0 auto;
+font-size:48px;
+}
+
+#certificateNo{
+margin:20px auto;
+font-size:20px;
+}
+
+#nameText{
+margin:40px auto;
+font-size:36px;
+}
+
+#wishText{
+margin:40px auto;
+font-size:52px;
+writing-mode:vertical-rl;
+}
+
+.certificate-text{
+margin:40px auto;
+font-size:24px;
+writing-mode:vertical-rl;
 }
