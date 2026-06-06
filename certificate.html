@@ -5,6 +5,7 @@
 <title>願望実現許可証</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="certificate-image" id="certificate">
@@ -31,20 +32,22 @@
 
 </div>
 
-  <br>
+<br>
 
 <button onclick="saveCertificate()">
 画像として保存する
 </button>
-  
+
 <script>
 const params = new URLSearchParams(window.location.search);
 
 document.getElementById("wishText").textContent =
 params.get("wish");
+</script>
 
-  <script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 
+<script>
 function saveCertificate() {
 
 html2canvas(
@@ -65,13 +68,7 @@ link.click();
 });
 
 }
-
 </script>
 
-  
-</script>
-  
-<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-  
 </body>
 </html>
