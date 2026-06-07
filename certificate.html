@@ -9,12 +9,8 @@
 
 <body>
 
-<div class="certificate-wrapper">
-
-<div class="certificate-scale">
-
 <div class="certificate-image" id="certificate">
-  
+
 <div class="certificate-main">
 
 <h1>許  可  証</h1>
@@ -45,10 +41,6 @@
 shamonthoughtadvisor.github.io/ganbou-kyokasho
 </p>
 
-</div>
-
-</div>
-  
 </div>
 
 <p class="message">
@@ -153,31 +145,6 @@ window.open(
 
 }
 
-function updateScale(){
-
-const certificate =
-document.querySelector(".certificate-scale");
-
-const baseWidth = 1046;
-
-const availableWidth =
-window.innerWidth - 40;
-
-const scale =
-Math.min(1, availableWidth / baseWidth);
-
-certificate.style.transform =
-`scale(${scale})`;
-
-}
-
-updateScale();
-
-window.addEventListener(
-"resize",
-updateScale
-);
-  
 </script>
 
 
