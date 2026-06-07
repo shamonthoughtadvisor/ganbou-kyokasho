@@ -293,7 +293,7 @@ min-height:80px;
 
 font-size:28px;
 
-padding:0 0px;
+padding:0 20px;
 
 }
 
@@ -303,7 +303,7 @@ padding:0 0px;
 
 font-size:26px;
 
-padding:0 0px;
+padding:0 20px;
 
 line-height:1.8;
 
@@ -319,7 +319,7 @@ padding:20px 30px;
 
 min-height:80px;
 
-width:95%;
+width:90%;
 
 max-width:600px;
 
@@ -343,16 +343,10 @@ font-size:32px;
 
 padding:20px 30px;
 
-width:95%;
+width:90%;
 
 max-width:500px;
 
 }
 
-body{
-
-padding:0;
-
-}
-  
 }
