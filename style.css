@@ -160,7 +160,7 @@ display:flex;
 
 justify-content:space-between;
 
-align-items:flex-end;
+align-items:center;
 
 margin-top:0px;
 
@@ -169,10 +169,14 @@ margin-top:0px;
 .issue-date {
 
 font-size:36px;
-  
+
 text-align:left;
-  
+
 margin-left:40px;
+
+display:flex;
+
+align-items:center;
 
 }
 
@@ -183,10 +187,14 @@ margin-left:40px;
 font-size:42px;
 
 font-weight:bold;
-  
+
 margin-right:40px;
 
 text-align:right;
+
+display:flex;
+
+align-items:center;
 
 }
 
