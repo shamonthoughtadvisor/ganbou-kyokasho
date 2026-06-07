@@ -29,11 +29,19 @@ margin-bottom: 60px;
 
 .certificate-image {
 
-width:min(1046px,90vw);
+background-image: url("certificate-base.png");
 
-height:auto;
+background-size: contain;
+background-repeat: no-repeat;
 
-aspect-ratio:1046/1480;
+width: 1046px;
+height: 1480px;
+
+margin: 0 auto;
+
+padding: 120px 140px 120px 140px;
+
+box-sizing: border-box;
 }
 
 /* 賞状本体 */
