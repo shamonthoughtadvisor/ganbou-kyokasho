@@ -44,6 +44,22 @@ padding: 120px 140px 120px 140px;
 box-sizing: border-box;
 }
 
+.certificate-wrapper{
+
+display:flex;
+
+justify-content:center;
+
+overflow-x:auto;
+
+}
+
+.certificate-scale{
+
+transform-origin:top center;
+
+}
+
 /* 賞状本体 */
 
 .certificate-main{
