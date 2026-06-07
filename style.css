@@ -261,3 +261,28 @@ text-align:center;
 
 opacity:0.8;
 }
+
+select{
+
+font-size:24px;
+
+padding:12px;
+
+min-height:60px;
+
+width:100%;
+
+max-width:500px;
+
+}
+@media (max-width:768px){
+
+select{
+
+font-size:28px;
+
+min-height:70px;
+
+}
+
+}
