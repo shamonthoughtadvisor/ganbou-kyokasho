@@ -4,7 +4,6 @@ margin: 40px auto;
 padding: 20px;
 font-family: serif;
 line-height: 1.8;
-  border:10px solid red !important;
 }
 
 h1 {
@@ -284,13 +283,6 @@ font-size:28px;
 
 min-height:70px;
 
-}
-
-}
-@media (max-width:768px){
-
-body{
-background:red;
 }
 
 }
