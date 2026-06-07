@@ -286,3 +286,10 @@ min-height:70px;
 }
 
 }
+@media (max-width:768px){
+
+body{
+background:red;
+}
+
+}
