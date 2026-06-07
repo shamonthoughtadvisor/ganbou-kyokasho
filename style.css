@@ -1,4 +1,5 @@
 body {
+max-width: 800px;
 margin: 40px auto;
 padding: 20px;
 font-family: serif;
@@ -282,50 +283,6 @@ font-size:16px;
 
 min-height:70px;
 
-}
-
-}
-@media (max-width:768px){
-
-.certificate-image{
-
-width:95vw;
-
-height:calc(95vw * 1480 / 1046);
-
-padding:40px;
-
-}
-
-}
-@media (max-width:768px){
-
-.certificate-main h1{
-font-size:48px;
-}
-
-#certificateNo{
-font-size:20px;
-}
-
-#nameText{
-font-size:32px;
-}
-
-#wishText{
-font-size:36px;
-}
-
-.certificate-text{
-font-size:28px;
-}
-
-.issue-date{
-font-size:20px;
-}
-
-.issuer{
-font-size:24px;
 }
 
 }
