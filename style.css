@@ -350,3 +350,18 @@ max-width:500px;
 }
 
 }
+@media (max-width:768px){
+
+.mobile-content{
+
+width:100vw;
+
+margin-left:calc(50% - 50vw);
+
+padding:0 10px;
+
+box-sizing:border-box;
+
+}
+
+}
