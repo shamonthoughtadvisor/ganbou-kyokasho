@@ -76,10 +76,26 @@ transform-origin:top center;
 width:100%;
 
 text-align:center;
+}
 
-padding-bottom:220px;
+.wish-area{
 
-box-sizing:border-box;
+position:absolute;
+
+top:520px;
+
+left:140px;
+
+right:140px;
+
+bottom:260px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
 }
 
 /* タイトル */
@@ -133,15 +149,16 @@ overflow-wrap:break-word;
 
 font-size:64px;
 
-max-width:760px;
+width:100%;
 
-margin:0 -20px 20px auto;
+margin:0;
 
 text-align:left;
 
 line-height:1.6;
 
 word-break:break-word;
+
 overflow-wrap:break-word;
 }
 
@@ -151,9 +168,9 @@ overflow-wrap:break-word;
 
 font-size:48px;
 
-max-width:760px;
+width:100%;
 
-margin:20px -20px 0 auto;
+margin:20px 0 0 0;
 
 text-align:left;
 }
@@ -166,7 +183,7 @@ left:140px;
 
 right:140px;
 
-bottom:120px;
+bottom:160px;
 
 display:flex;
 
