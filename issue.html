@@ -53,7 +53,19 @@ id="name"
 maxlength="10"
 style="width:100%;">
 
-<br><br>
+<p>
+許可者（任意・10文字以内）
+</p>
+
+<input
+type="text"
+id="issuer"
+maxlength="10"
+style="width:100%;">
+  
+<br>
+
+<br>
 
 <button onclick="issueCertificate()">
 許可証を発行する
@@ -69,6 +81,9 @@ document.getElementById("wish").value.trim();
 const name =
 document.getElementById("name").value.trim();
 
+const issuer =
+document.getElementById("issuer").value.trim();
+  
 if(wish === ""){
 
 alert(
@@ -83,7 +98,9 @@ window.location.href =
 "certificate.html?wish=" +
 encodeURIComponent(wish) +
 "&name=" +
-encodeURIComponent(name);
+encodeURIComponent(name) +
+"&issuer=" +
+encodeURIComponent(issuer);
 
 }
 
