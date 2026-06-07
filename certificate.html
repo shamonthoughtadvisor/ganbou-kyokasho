@@ -32,7 +32,7 @@
 
 <p class="issue-date" id="issueDate"></p>
 
-<p class="issuer">
+<p class="issuer" id="issuerText">
 全知全能の神
 </p>
 
@@ -84,15 +84,26 @@ params.get("wish");
 const name =
 params.get("name");
 
+const issuer =
+params.get("issuer");
+  
 const limitedWish =
 wish ? wish.slice(0, 40) : "";
 
 const limitedName =
 name ? name.slice(0, 10) : "";
+
+const limitedIssuer =
+issuer ? issuer.slice(0, 10) : "";
   
 document.getElementById("wishText").textContent =
 limitedWish;
 
+document.getElementById("issuerText").textContent =
+issuer && issuer.trim() !== ""
+? limitedIssuer
+: "全知全能の神";
+  
 if(name && name.trim() !== "") {
 
 document.getElementById("nameText").textContent =
